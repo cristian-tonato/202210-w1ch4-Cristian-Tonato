@@ -1,49 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PETS</title>
+        <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon" />
         <link rel="stylesheet" href="./css/syle.css" />
+        <title>Mascotas</title>
     </head>
     <body>
-        <header>
-            <div>
-                <img class="huella" src="./imag/logo2.png" alt="" srcset="" />
-            </div>
-            <div>
-                <ul class="huella">
-                    <nav>
-                        <a href="">Home</a>
-                        <a href="">Live Demo</a>
-                        <a href="">Live Demo Block</a>
-                        <a href="">BUY NOW</a>
-                    </nav>
+        <header class="menu-opt">
+            <img src="./imag/logo2.png" alt="" />
+            <nav class="menu">
+                <ul class="options">
+                    <li class="options__op"><a href="">Home</a></li>
+                    <li class="options__op">
+                        <details>
+                            <summary>Live Demo</summary>
+                            <ul class="sub">
+                                <li class="sub__li">
+                                    <a href="">Pets Boarding Services</a>
+                                </li>
+                                <li class="sub__li">
+                                    <a href="">Pets Toys and Food Shop</a>
+                                </li>
+                                <li class="sub__li">
+                                    <a href="">Pets Training School</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li class="options__op"><details>
+                            <summary>Live Demo</summary></li>
+                    <li class="options__op">
+                        <a class="options__op button--orange" href=""
+                            >BUY NOW</a
+                        >
+                    </li>
                 </ul>
-            </div>
+            </nav>
         </header>
-        <main>
-            <section>
-                <h1 class="titulo">
-                    PET ACTIVITIES</h1>
-            </section>
-            <section>
-                <div>
-                    <h2 class="subtitule"
-                    >Take a closer look</h2>
-                    <aside class="option">VIEW ALL</aside>
+        <section class="section1">
+            <h1 class="section1__it titulo">PET ACTIVITIES</h1>
+            
+            
+        </section>
+        <div class="subtitulo">
+        <p class="subtitulo__it take">Take a closer look</p> <nav>
+                <a href="" class="section1__it button--orange">VIEW ALL</a>
+            </nav></div>
+        <section class="carrete">
+            <nav class="menu-imagen">
+                <div class="galeria">
+                    <div class="texto"><p class="p1"> ACTIVITIES 
+                        Toys Playtime
+                    </p></div>
+                    <img
+                        src="./imag/dog.jpg"
+                        class="galeria__img1 galeria--border"
+                    />
                 </div>
-                <section class="photos">
-                <div class="tamaño">
-                <img src="./imag/dog.jpg" alt="dog" />
-                
-                <img src="./imag/cat.jpg" alt="cat" />
-                
-                <img src="./imag/dog2.jpg" alt="dog2" />
+                <div class="galeria">
+                    <div class="texto"><p class="p1"> ACTIVITIES 
+                        Active Rest
+                    </p></div>
+                    <img
+                        src="./imag/cat.jpg"
+                        class="galeria__img2 galeria--border"
+                    />
                 </div>
-            </section>
-            </section>
-        </main>
+                <div class="galeria">
+                    <div class="texto"><p class="p1"> ACTIVITIES 
+                        Game Walks
+                    </p></div>
+                    
+                    <img
+                        src="./imag/dog2.jpg"
+                        class="galeria__img3 galeria--border" 
+                    />
+                    
+                </div>
+            </nav>
+        </section>
+        
     </body>
 </html>
