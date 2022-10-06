@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(252, 255, 255);
+  justify-content: center;
+}
+
+.huella {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.titulo {
+  color: orange;
+  font-size: 2ch;
+}
+
+.subtitule {
+  font-size: 5ch;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section.photos {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  flex: 2 1 auto;
+}
+
+/*# sourceMappingURL=syle.css.map */
